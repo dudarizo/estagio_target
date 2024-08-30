@@ -1,0 +1,13 @@
+# Função para inverter uma string
+def inverter_string(s):
+    invertida = ""
+    # Adiciona cada caractere no início da string invertida
+    for char in s:
+        invertida = char + invertida
+    return invertida
+
+# Entrada da string a ser invertida
+string = input("Digite uma string para inverter: ")
+
+# Imprime a string invertida
+print("String invertida:", inverter_string(string))
